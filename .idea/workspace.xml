@@ -62,8 +62,21 @@
       <file leaf-file-name="AdminCompetition.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/AdminCompetition.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="60" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.6936416" vertical-offset="810" max-vertical-offset="3645">
+            <state line="172" column="20" selection-start="8390" selection-end="8390" vertical-scroll-proportion="0.39306358" vertical-offset="2376" max-vertical-offset="3705">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/ResultModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="33" selection-start="288" selection-end="307" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="900">
+              <folding>
+                <marker date="1421515822000" expanded="true" signature="1456:1636" placeholder="INSERT INTO ..." />
+                <marker date="1421515822000" expanded="true" signature="1834:2059" placeholder="UPDATE resul..." />
+                <marker date="1421515822000" expanded="true" signature="2185:2218" placeholder="DELETE FROM ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +108,6 @@
         <option value="$PROJECT_DIR$/application/models/CompetitionModel.php" />
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
         <option value="$PROJECT_DIR$/application/models/PlaceModel.php" />
-        <option value="$PROJECT_DIR$/application/models/ResultModel.php" />
         <option value="$PROJECT_DIR$/application/views/admin/b_placeDetails.php" />
         <option value="$PROJECT_DIR$/application/views/admin/b_competitionDetails.php" />
         <option value="$PROJECT_DIR$/application/views/admin/b_personDetails.php" />
@@ -104,6 +116,7 @@
         <option value="$PROJECT_DIR$/application/controllers/AdminPlaces.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/controllers/AdminPersons.php" />
+        <option value="$PROJECT_DIR$/application/models/ResultModel.php" />
         <option value="$PROJECT_DIR$/application/controllers/AdminCompetition.php" />
       </list>
     </option>
@@ -718,17 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/ResultModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="100" selection-start="844" selection-end="844" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="900">
-          <folding>
-            <marker date="1421353027000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1421353027000" expanded="true" signature="-1:-1" placeholder="UPDATE resul..." />
-            <marker date="1421353027000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/b_competitionDetails.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="98" selection-start="2698" selection-end="2698" vertical-scroll-proportion="-15.666667" vertical-offset="644" max-vertical-offset="1200">
@@ -813,9 +815,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/ResultModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="288" selection-end="307" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="900">
+          <folding>
+            <marker date="1421515822000" expanded="true" signature="1456:1636" placeholder="INSERT INTO ..." />
+            <marker date="1421515822000" expanded="true" signature="1834:2059" placeholder="UPDATE resul..." />
+            <marker date="1421515822000" expanded="true" signature="2185:2218" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/AdminCompetition.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="60" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.6936416" vertical-offset="810" max-vertical-offset="3645">
+        <state line="172" column="20" selection-start="8390" selection-end="8390" vertical-scroll-proportion="0.39306358" vertical-offset="2376" max-vertical-offset="3705">
           <folding />
         </state>
       </provider>

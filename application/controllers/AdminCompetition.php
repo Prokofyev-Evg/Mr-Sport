@@ -168,10 +168,14 @@ class AdminCompetition extends CI_Controller {
     }
 
     private function generate_results_table($segmentID){
-        $results = $this->ResultModel->get_results_of_segment($segmentID)->result_array();
-        for($i = 0; $i < count($results); $i++){
+        $temp = $this->ResultModel->get_results_of_segment($segmentID)->result_array();
+        for($i = 0; $i < count($temp); $i++){
+            $results[$i]['Место'] = $i + 1;
+            foreach($temp[$i] AS $key => $value)
+                if($key!='ID')
+                    $results[$i][$key] = $value;
             // Добавляем ссылку на страницу редактирования соревнования
-            $results[$i]['Редактировать'] = anchor(site_url("admincompetition/resultEdit/".$segmentID.'/'.$results[$i]['ID']), '<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', array('class' => 'btn btn-primary btn-xs'));
+            $results[$i]['Редактировать'] = anchor(site_url("admincompetition/resultEdit/".$segmentID.'/'.$temp[$i]['ID']), '<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', array('class' => 'btn btn-primary btn-xs'));
         }
         return $results;
     }
